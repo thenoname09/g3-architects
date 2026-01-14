@@ -118,10 +118,64 @@ font-weight: 500;
  
 }
 
+/* features section related styles */
+.about-features{
+  gap: 146px;
+
+
+
+}
+
+#titel-border-color{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+
+}
+
+.features-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  /* width: 586px; */
+  margin-bottom: 20px;
+
+
+
+}
+.features-card-titel{
+font-weight: 600;
+font-size: 1.25rem;
+color: #131313;
+margin: 0%;
+
+}
+
+.features-card p{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#btn-2nd{
+  padding: 45px 42px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+#btn-2nd-text{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.featured-architec img{
+  width: 100%;
+}
+
+
+
 
 /* Responsive media query */
 @media screen and (max-width:576px){
-  .navbar, .menu-link, .team-features{
+  .navbar, .menu-link, .team-features ,.about-features{
     flex-direction: column;
   }
   .team-img-container{
@@ -129,6 +183,10 @@ font-weight: 500;
   }
   .Our-Features{
     margin-left: 15px;
+  }
+  #btn-2nd{
+    margin-top: 20px;
+    margin-left: 20px;
   }
   
 }
